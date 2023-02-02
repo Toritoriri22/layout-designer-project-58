@@ -1,0 +1,38 @@
+@font-face {
+    font-weight: normal;
+    font-family: Neucha;
+    src: url("../font/Neucha-Regular.ttf");
+}
+
+@font-face {
+    font-weight: normal;
+    font-family: OpenSans;
+    src: url("../font/OpenSans-Regular.ttf");
+}
+body {
+    font-family: OpenSans;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2A2626;
+}
+h1 {
+    font-family: Neucha;
+    line-height: 1.2em;
+    font-size: 72px;
+}
+h2 {
+    line-height: 1.2em;
+    font-size: 60px;
+    font-family: Neucha;
+}
+h3 {
+    line-height: 1.2em;
+    font-size: 34px;
+    font-family: Neucha;
+}
+header,main,section,footer {
+    max-width: 1110px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
