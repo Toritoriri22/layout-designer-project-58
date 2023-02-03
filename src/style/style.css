@@ -203,6 +203,12 @@ li {
     background: #F5F4F0;
     list-style-type: none;
 }
+li:hover {
+    background: #FE8A02;
+}
+li:hover * {
+    color: #FFFFFF;
+}
 .list-1 {
     left: 545px;
     top: 100px;
